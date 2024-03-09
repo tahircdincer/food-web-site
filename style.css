@@ -71,17 +71,20 @@ body {
 }
 /* Button */
 .btn-primary {
-  color: red;
+  color: var(--link-hover-color);
   background-color: #efefef;
-  padding: 0.75rem 0.75rem;
+  padding: 0.5rem 0.75rem;
   border-radius: 3px;
   text-decoration: none;
   display: inline-block;
-  width: 8rem;
+  width: 10rem;
+  font-size: 1.4rem;
   text-align: center;
 }
+
 .btn-primary:hover {
   background-color: #a9a9a9;
+  transition: 1s ease-in;
 }
 
 /* Showcase Section */
