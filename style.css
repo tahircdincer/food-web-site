@@ -143,3 +143,9 @@ background-color: var(--secondary-color);
     color: white;
     justify-content: space-between;
 }
+.info-content h3 {
+    font-size: 2rem;
+}
+.info-content p {
+    
+}
