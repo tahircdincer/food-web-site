@@ -136,8 +136,7 @@ top: 0px;
 }
 .info-img {
   min-height: 100%;
-  background: url(./photos/catering-info-page-photo.jpg) no-repeat center
-    center/cover;
+  background: url(./photos/catering.jpg) no-repeat center center/cover;
 }
 .info-content {
   padding: 1rem;
@@ -180,6 +179,10 @@ top: 0px;
 }
 
 .box-feature p {
+  color: var(--secondary-color);
+}
+
+.box-feature i {
   color: var(--secondary-color);
 }
 
