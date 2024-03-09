@@ -1,0 +1,133 @@
+/* Reset to CSS */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* Variables */
+:root {
+  --primary-color: red;
+  --link-hover-color: #ff3b3f;
+  --secondary-color: #333;
+  --text-color: white;
+  --max-width: 1100px;
+  --ff: "Bebas Neue", sans-serif;
+}
+
+/* Body */
+body {
+    font-family: var(--ff);
+    font-weight: 900;
+}
+
+/* Navbar */
+
+#main-nav {
+  padding: rem;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  font-family: 
+  font-size: 20px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: var(--max-width);
+  margin: auto;
+}
+/* Setting margin auto is important on nav-container. */
+.nav-container h1 {
+  align-self: center;
+  padding-left: 1rem;
+}
+.nav-container ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  height: 100%;
+  padding-right: 1rem;
+}
+.nav-container ul li {
+  padding: 1rem;
+}
+#main-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+#main-nav ul li:hover {
+  background-color: var(--link-hover-color);
+  transition: 1s ease-in-out;
+}
+/* Button */
+.btn-primary {
+    color: red;
+    background-color: #efefef;
+    padding: 0.75rem 0.75rem;
+    border-radius: 3px;
+    text-decoration: none;
+    display: inline-block;
+    width: 8rem;
+    text-align: center;
+}
+.btn-primary:hover {
+  background-color: #a9a9a9;
+}
+
+/* Showcase Section */
+#showcase {
+    background: url(./photos/salad-stock-photo.jpg) no-repeat center center/cover;
+
+}
+/* 
+#showcase::before {
+    content: '';
+position: absolute;
+left: 0px;
+top: 0px;
+  
+}
+*/
+.showcase-container {
+    max-width: var(--max-width);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    color: white;
+    margin: auto;
+}
+.showcase-container h2 {
+    font-size: 7rem;
+}
+.showcase-container p {
+    font-size: 1.4rem;
+}
+.showcase-container h2 span .showcase-span {
+color: red
+}
+
+
+/* Catering info section */
+
+#catering-info {
+height: 30vh;
+}
+
+.info-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--secondary-color);
+}
+
+.info-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+}
